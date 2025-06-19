@@ -1,24 +1,6 @@
 # 🏗️ Airflow ETL Pipeline – Olympic Athlete Data
 This project implements an **Apache Airflow** ETL pipeline using **Docker**, designed to extract, transform, and load Olympic athlete data from CSV files using `pandas`.
-
----
-
-## 📁 Project Structure
-airflow-etl-project/
-├── dags/
-│ └── etlpandas.py # Main ETL DAG using pandas
-├── data/
-│ ├── athlete_events.csv # Raw input data
-│ └── athlete_cleaned.csv # Cleaned output data
-├── config/
-│ └── airflow.cfg # Optional custom Airflow config
-├── .env # Environment variables (credentials/secrets)
-├── docker-compose.yaml # Dockerized Airflow stack
-├── .gitignore
-└── README.md
-
-
----
+--
 
 ## 🚀 Quick Start
 
